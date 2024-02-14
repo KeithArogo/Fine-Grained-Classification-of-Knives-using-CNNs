@@ -17,3 +17,7 @@ Run train.py to train the model on knife dataset. The default model is Efficient
 
 # Testing
 Run test.py to test the model on test dataset.
+
+# Note
+The dataset was not uploaded due to ownership. 
+Demontrations can be given on request.
