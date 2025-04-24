@@ -56,15 +56,15 @@
 ## 🚀 Installation
 
 1. Clone the repo:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/knife-classification.git
    cd knife-classification
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ---
 
@@ -72,26 +72,26 @@
 
 ### 🔧 Training
 
-\`\`\`bash
+```bash
 python train.py \
   --model [MODEL_NAME] \
   --lr [LEARNING_RATE] \
   --batch_size [BATCH_SIZE] \
   --epochs [NUM_EPOCHS]
-\`\`\`
+```
 
 **Example (Best Ensemble Model):**
-\`\`\`bash
+```bash
 python train.py --model ensemble --lr 0.00005 --batch_size 8 --epochs 9
-\`\`\`
+```
 
 ### 🧪 Testing
 
-\`\`\`bash
+```bash
 python test.py \
   --model [MODEL_NAME] \
   --weights_path [PATH_TO_WEIGHTS]
-\`\`\`
+```
 
 ---
 
@@ -113,13 +113,3 @@ python test.py \
 - ⏳ Cosine Annealing Scheduler improved convergence magic  
 
 ---
-
-## 📖 References
-
-> Add relevant papers, repositories, or articles here if needed.
-
----
-
-## 📝 License
-
-> Add your license info here (e.g., MIT, Apache 2.0)
